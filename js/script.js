@@ -5,16 +5,16 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if ($(window).scrollTop() > 70){
            $(".nav").addClass("scrolled");
+           $("#nav-logo").attr("src", srcInicial );
+           $(".nav-menu-option").css("color", "#fff");
+           $(".navbar-social").find("span").css("color", "#fff");
+           $(".navbar-social").find("a").css("color", "#fff");         
+        } else if ($(window).scrollTop() < 70) {
+           $(".nav").removeClass("scrolled");
            $("#nav-logo").attr("src", srcFinal);
            $(".nav-menu-option").css("color", "#000");
            $(".navbar-social").find("span").css("color", "#6c6c6c");
-           $(".navbar-social").find("a").css("color", "#6c6c6c");         
-        } else if ($(window).scrollTop() < 70) {
-           $(".nav").removeClass("scrolled");
-           $("#nav-logo").attr("src", srcInicial);
-           $(".nav-menu-option").css("color", "#fff");
-           $(".navbar-social").find("span").css("color", "#fff");
-           $(".navbar-social").find("a").css("color", "#fff");   
+           $(".navbar-social").find("a").css("color", "#6c6c6c");   
         }
    });
 });
