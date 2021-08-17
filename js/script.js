@@ -8,13 +8,17 @@ $(document).ready(function(){
            $("#nav-logo").attr("src", srcInicial );
            $(".nav-menu-option").css("color", "#fff");
            $(".navbar-social").find("span").css("color", "#fff");
-           $(".navbar-social").find("a").css("color", "#fff");         
+           $(".navbar-social").find("a").css("color", "#fff");
+           $(".login-bnt").css("color", "#fff"); 
+           $(".login-bnt").css("border", "1px solid #fff");        
         } else if ($(window).scrollTop() < 70) {
            $(".nav").removeClass("scrolled");
            $("#nav-logo").attr("src", srcFinal);
            $(".nav-menu-option").css("color", "#000");
-           $(".navbar-social").find("span").css("color", "#6c6c6c");
-           $(".navbar-social").find("a").css("color", "#6c6c6c");   
+           $(".navbar-social").find("span").css("color", "#000");
+           $(".navbar-social").find("a").css("color", "#000");
+           $(".login-bnt").css("color", "#000"); 
+           $(".login-bnt").css("border", "1px solid #000");    
         }
    });
 });
