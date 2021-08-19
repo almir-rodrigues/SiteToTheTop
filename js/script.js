@@ -39,16 +39,16 @@ icon1.onclick = function(){
     else {
         subMenu1.style.display = "block"
         arrow1.className = "fa fa-angle-up"
+        subMenu2.style.display = "none"
+        arrow2.className = "fa fa-angle-down"
+        subMenu3.style.display = "none"
+        arrow3.className = "fa fa-angle-down"
     }
 }
 submenuarrow1.onclick = function(){
     if (subMenu1.style.display == "block"){
         subMenu1.style.display = "none"
         arrow1.className = "fa fa-angle-down"
-    }
-    else {
-        subMenu1.style.display = "block"
-        arrow1.className = "fa fa-angle-up"
     }
 }
 
@@ -63,18 +63,18 @@ icon2.onclick = function(){
         arrow2.className = "fa fa-angle-down"
     }
     else {
+        subMenu1.style.display = "none"
+        arrow1.className = "fa fa-angle-down"
         subMenu2.style.display = "block"
         arrow2.className = "fa fa-angle-up"
+        subMenu3.style.display = "none"
+        arrow3.className = "fa fa-angle-down"
     }
 }
 submenuarrow2.onclick = function(){
     if (subMenu2.style.display == "block"){
         subMenu2.style.display = "none"
         arrow2.className = "fa fa-angle-down"
-    }
-    else {
-        subMenu2.style.display = "block"
-        arrow2.className = "fa fa-angle-up"
     }
 }
 
@@ -89,6 +89,10 @@ icon3.onclick = function(){
         arrow3.className = "fa fa-angle-down"
     }
     else {
+        subMenu1.style.display = "none"
+        arrow1.className = "fa fa-angle-down"
+        subMenu2.style.display = "none"
+        arrow2.className = "fa fa-angle-down"
         subMenu3.style.display = "block"
         arrow3.className = "fa fa-angle-up"
     }
@@ -98,14 +102,23 @@ submenuarrow3.onclick = function(){
         subMenu3.style.display = "none"
         arrow3.className = "fa fa-angle-down"
     }
-    else {
-        subMenu3.style.display = "block"
-        arrow3.className = "fa fa-angle-up"
-    }
 }
 
 
 
+var sideMenu = document.getElementById("bar");
+var sideItems = document.getElementById("navbar");
+
+sideItems.style.right = "-360px";
+
+sideMenu.onclick = function(){
+    if (sideItems.style.right == "-360px"){
+        sideItems.style.right = "0"
+    }
+    else {
+        sideItems.style.right = "-360px"
+    }
+}
 
 
 
