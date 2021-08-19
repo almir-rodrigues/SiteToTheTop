@@ -117,6 +117,7 @@ h6{
     width: 100%;
     left:0;
     box-shadow: 7px 10px 15px rgba(0, 0, 0,0.3);
+    transition: all 1s ease;
 }
 .sub-menu-1 ul{
     display: flex;
@@ -509,7 +510,7 @@ h6{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 10rem;    
 }
 .service h6{
     margin-bottom: 6rem;
@@ -606,14 +607,14 @@ h6{
 }
 .pricing .basic:hover h3{
     /* background-image: linear-gradient(to right, #535cf1, #a147e4); */
-    background-image: linear-gradient(to right, #3c45f5, #d3df2e);
+    background-image: linear-gradient(to right, #3474bb, #7ba6d3);
 
     color: #fff;
 }
 
 .pricing .standard h3{
     /* background-image: linear-gradient(to right, #535cf1, #a147e4); */
-    background-image: linear-gradient(to right, #3c45f5, #d3df2e);
+    background-image: linear-gradient(to right, #3474bb, #7ba6d3);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     color: #fff;
 }
@@ -677,14 +678,14 @@ h6{
 
 .pricing .basic:hover .header-btn a{
     /* background-image: linear-gradient(to right, #535cf1, #a147e4); */
-    background-image: linear-gradient(to right, #3c45f5, #d3df2e);
+    background-image: linear-gradient(to right, #3474bb, #7ba6d3);
     color: #fff;
     border: 1px solid #2e53cc;
 }
 
 .pricing .standard .header-btn a{
     /* background-image: linear-gradient(to right, #535cf1, #a147e4); */
-    background-image: linear-gradient(to right, #3c45f5, #d3df2e);
+    background-image: linear-gradient(to right, #3474bb, #7ba6d3);
     color: #fff;
     border: 1px solid #2e53cc;
 }
@@ -743,7 +744,7 @@ h6{
 
 .callToAct .parallax .call-news button{
     /* background-image: linear-gradient(to right, #535cf1, #a147e4); */
-    background-image: linear-gradient(to right, #3c45f5, #d3df2e);
+    background-image: linear-gradient(to right, #3474bb, #7ba6d3);
     border: none;
     outline: none;
     color: #fff;
@@ -811,7 +812,7 @@ h6{
 
 .contact .form .header-btn a{
     /* background-image: linear-gradient(to right, #535cf1, #a147e4); */
-    background-image: linear-gradient(to right, #3c45f5, #d3df2e);
+    background-image: linear-gradient(to right, #3474bb, #7ba6d3);
     color: #fff;
     border-radius: 5px;
     border: none;
