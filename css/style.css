@@ -354,13 +354,14 @@ h6{
     background-attachment: fixed;
     position: relative;
 }
-.back .overlay{
-    /* background-image: linear-gradient(0deg, rgba(159,49,41,1) 0%, rgba(93,49,175,1) 24%, rgba(196,239,247,1) 81%); */
-    /* background-image: linear-gradient(0deg, rgba(189,204,36,0.5), rgba(103,52,199,0.5) 40%, rgba(196,239,247,0.9) 90%); */
-    /* background-image: linear-gradient(0deg, rgba(90,83,209,0.3) 0%, rgba(143, 143, 209, 0.5) 24%, rgba(255,255,255,0.9) 100%); */
+
+/* .back .overlay{
+    background-image: linear-gradient(0deg, rgba(159,49,41,1) 0%, rgba(93,49,175,1) 24%, rgba(196,239,247,1) 81%);
+    background-image: linear-gradient(0deg, rgba(189,204,36,0.5), rgba(103,52,199,0.5) 40%, rgba(196,239,247,0.9) 90%);
+    background-image: linear-gradient(0deg, rgba(90,83,209,0.3) 0%, rgba(143, 143, 209, 0.5) 24%, rgba(255,255,255,0.9) 100%);
     width: 100%;
     height: 100%;
-}
+} */
 
 .back .hero-shape{
     position: absolute;
@@ -680,7 +681,7 @@ h6{
 /*================= Newsletter ====================*/
 
 .callToAct{
-    background-image: linear-gradient(to right, rgba(255, 0, 0,0), #6369e7), url(/SiteToTheTop/assets/images/2.jpg);
+    background-image: linear-gradient(to right, rgba(255, 0, 0,0), #6369e7), url(/assets/images/2.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -1009,10 +1010,6 @@ footer .second-row .text{
 
 
 @media (max-width: 1200px){
-    
-}
-
-@media (max-width: 1024px){
     .nav{
         padding: 1rem 3rem;
     }
@@ -1021,23 +1018,101 @@ footer .second-row .text{
         display: none;
     }
 
+    .sub-menu-1 ul{
+        margin: 2rem;
+    }
+    .sub-menu-1 ul li{
+        border: 2px solid transparent;
+        padding: 2rem 0.23rem;
+        width: 270px;
+        height: 240px;
+    }
+    .sub-menu-1 ul li:hover{
+        border: 2px solid #3b76bb;
+    }
+    .sub-menu-1 ul li h4{
+        font-size: 14px;
+    }
+    .sub-menu-1 ul li p{
+        font-size: 12px;   
+    }
+    .sub-menu-1 .icon-seta i{
+        font-size: 25px;
+        font-weight: 800;        
+    }    
+    .sub-menu-1 ul li i{
+        font-size: 35px;
+    }
+
+    .sub-menu-2 ul{
+        margin: 2rem;
+    }
+    .sub-menu-2 ul li{
+        border: 2px solid transparent;
+        padding: 2rem 0.23rem;
+        width: 270px;
+        height: 240px;
+    }
+    .sub-menu-2 ul li:hover{
+        border: 2px solid #3b76bb;
+    }
+    .sub-menu-2 ul li h4{
+        font-size: 14px;
+    }
+    .sub-menu-2 ul li p{
+        font-size: 12px;   
+    }
+    .sub-menu-2 .icon-seta i{
+        font-size: 25px;
+        font-weight: 800;        
+    }
+    .sub-menu-2 ul li i{
+        font-size: 35px;
+    }
+
+    .sub-menu-3 ul{
+        justify-content:space-evenly;
+        margin: 2.3rem;
+    
+    }
+    .sub-menu-3 ul li{
+        border: 2px solid transparent;
+        padding: 2rem 0.23rem;
+        width: 190px;
+        height: 230px;
+    }
+    .sub-menu-3 ul li:hover{
+        border: 2px solid #3b76bb;
+    }
+    .sub-menu-3 ul li h4{
+        font-size: 14px;
+    }
+    .sub-menu-3 ul li p{
+        font-size: 12px;   
+    }
+    .sub-menu-3 .icon-seta i{
+        font-size: 25px;
+        font-weight: 800;        
+    }
+    .sub-menu-3 ul li i{
+        font-size: 35px;
+    }
+/*========== Hero ==========*/
     .back{
         background-position: center;
     }
 
     .hero-text{
-
-    transform: translate(-50%, -120%);
-    text-align: center;
+        transform: translate(-50%, -85%);
+        text-align: center;
     }
-
     .hero-text h3{
         font-size: 30px;
     }
     .hero-text h6{
         font-size: 18px;
     }
-
+/*========== Serviços ==========*/
     #wrapper{
         margin: 3rem 3rem 10rem 3rem;
     }
@@ -1048,8 +1123,222 @@ footer .second-row .text{
     .service h6{
         margin-bottom: 3rem;
     }
+
+    .service .service-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .service .service-content .box{
+        width: 100%;
+    }
+
+    .service .service-content .box .box-one{
+        justify-content: center;
+        align-items: center;
+        text-align: center
+    }
+
+    .service .service-content .service-img{
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+
+/*========== Prodrutos ==========*/
+
+    /* .pricing .table{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .pricing .basic{
+        margin-bottom: 3rem;
+    } */
+    
+/*========== Newsletter ==========*/
+
+    .callToAct{
+        margin-bottom: 5rem;
+    }
+
+    .callToAct .parallax{
+        width: 80%;
+    }
+/*========== Contato ==========*/
+
+    .contact .form{
+        width: 90%;
+    }
+
 }
 
+
+
+@media (max-width: 1024px){
+    .nav{
+        padding: 1rem 3rem;
+    }
+
+    .nav .navbar-social{
+        display: none;
+    }
+
+    .sub-menu-1 ul{
+        margin: 2rem;
+    }
+    .sub-menu-1 ul li{
+        border: 2px solid transparent;
+        padding: 2rem 0.23rem;
+        width: 270px;
+        height: 250px;
+    }
+    .sub-menu-1 ul li:hover{
+        border: 2px solid #3b76bb;
+    }
+    .sub-menu-1 ul li h4{
+        font-size: 14px;
+    }
+    .sub-menu-1 ul li p{
+        font-size: 12px;   
+    }
+    .sub-menu-1 .icon-seta i{
+        font-size: 25px;
+        font-weight: 800;        
+    }    
+    .sub-menu-1 ul li i{
+        font-size: 35px;
+    }
+
+    .sub-menu-2 ul{
+        margin: 2rem;
+    }
+    .sub-menu-2 ul li{
+        border: 2px solid transparent;
+        padding: 2rem 0.23rem;
+        width: 270px;
+        height: 250px;
+    }
+    .sub-menu-2 ul li:hover{
+        border: 2px solid #3b76bb;
+    }
+    .sub-menu-2 ul li h4{
+        font-size: 14px;
+    }
+    .sub-menu-2 ul li p{
+        font-size: 12px;   
+    }
+    .sub-menu-2 .icon-seta i{
+        font-size: 25px;
+        font-weight: 800;        
+    }
+    .sub-menu-2 ul li i{
+        font-size: 35px;
+    }
+
+    .sub-menu-3 ul{
+        justify-content:space-evenly;
+        margin: 2.3rem;
+    
+    }
+    .sub-menu-3 ul li{
+        border: 2px solid transparent;
+        padding: 2rem 0.23rem;
+        width: 180px;
+        height: 240px;
+    }
+    .sub-menu-3 ul li:hover{
+        border: 2px solid #3b76bb;
+    }
+    .sub-menu-3 ul li h4{
+        font-size: 14px;
+    }
+    .sub-menu-3 ul li p{
+        font-size: 12px;   
+    }
+    .sub-menu-3 .icon-seta i{
+        font-size: 25px;
+        font-weight: 800;        
+    }
+    .sub-menu-3 ul li i{
+        font-size: 35px;
+    }
+/*========== Hero ==========*/
+    .back{
+        background-position: center;
+    }
+
+    .back .hero-shape{
+        transform: translateY(1px);
+    }
+
+    .hero-text{
+        transform: translate(-50%, -110%);
+        text-align: center;
+    }
+    .hero-text h3{
+        font-size: 30px;
+    }
+    .hero-text h6{
+        font-size: 18px;
+    }
+/*========== Serviços ==========*/
+    #wrapper{
+        margin: 3rem 3rem 10rem 3rem;
+    }
+    .service{
+        margin-bottom: 3rem;
+    }
+
+    .service h6{
+        margin-bottom: 3rem;
+    }
+
+    .service .service-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .service .service-content .box{
+        width: 100%;
+    }
+
+    .service .service-content .box .box-one{
+        justify-content: center;
+        align-items: center;
+        text-align: center
+    }
+
+    .service .service-content .service-img{
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+
+/*========== Prodrutos ==========*/
+
+    /* .pricing .table{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .pricing .basic{
+        margin-bottom: 3rem;
+    } */
+    
+/*========== Newsletter ==========*/
+
+    .callToAct{
+        margin-bottom: 5rem;
+    }
+
+    .callToAct .parallax{
+        width: 80%;
+    }
+/*========== Contato ==========*/
+
+    .contact .form{
+        width: 90%;
+    }
+}
 @media only screen and(max-width: 768px){
     
 }
