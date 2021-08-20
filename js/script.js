@@ -25,84 +25,136 @@ $(document).ready(function(){
 });
 
 
-//Função para abrir o SubMenu de Empréstimos onClick
-var subMenu1 = document.getElementById("sub-menu-1");
-var icon1 = document.getElementById("icon-1")
-var arrow1 = document.getElementById("emprestimos-arrow")
-var submenuarrow1 = document.getElementById("close-arrow")
-icon1.onclick = function(){
-    if (subMenu1.style.display == "block"){
- // if (subMenu1.style.display == "block" && subMenu2.style.display == "none" && subMenu2.style.display == "none"){
-        subMenu1.style.display = "none"
-        arrow1.className = "fa fa-angle-down"
-    }
-    else {
-        subMenu1.style.display = "block"
-        arrow1.className = "fa fa-angle-up"
-        subMenu2.style.display = "none"
-        arrow2.className = "fa fa-angle-down"
-        subMenu3.style.display = "none"
-        arrow3.className = "fa fa-angle-down"
-    }
-}
-submenuarrow1.onclick = function(){
-    if (subMenu1.style.display == "block"){
-        subMenu1.style.display = "none"
-        arrow1.className = "fa fa-angle-down"
-    }
-}
+// //Função para abrir o SubMenu de Empréstimos onClick
+// var subMenu1 = document.getElementById("sub-menu-1");
+// var icon1 = document.getElementById("icon-1")
+// var arrow1 = document.getElementById("emprestimos-arrow")
+// var submenuarrow1 = document.getElementById("close-arrow")
+// icon1.onclick = function(){
+//     if (subMenu1.style.width == "100%"){
+//  // if (subMenu1.style.display == "block" && subMenu2.style.display == "none" && subMenu2.style.display == "none"){
+//         subMenu1.style.width = "0"
+//         arrow1.className = "fa fa-angle-down"
+//     }
+//     else {
+//         subMenu1.style.width = "100%"
+//         arrow1.className = "fa fa-angle-up"
+//         subMenu2.style.width = "0"
+//         arrow2.className = "fa fa-angle-down"
+//         subMenu3.style.width = "0"
+//         arrow3.className = "fa fa-angle-down"
+//     }
+// }
+// submenuarrow1.onclick = function(){
+//     if (subMenu1.style.display == "block"){
+//         subMenu1.style.display = "none"
+//         arrow1.className = "fa fa-angle-down"
+//     }
+// }
 
-//Função para abrir o SubMenu de Investimentos onClick
-var subMenu2 = document.getElementById("sub-menu-2");
-var icon2 = document.getElementById("icon-2")
-var arrow2 = document.getElementById("investimentos-arrow")
-var submenuarrow2 = document.getElementById("close-arrow2")
-icon2.onclick = function(){
-    if (subMenu2.style.display == "block"){
-        subMenu2.style.display = "none"
-        arrow2.className = "fa fa-angle-down"
-    }
-    else {
-        subMenu1.style.display = "none"
-        arrow1.className = "fa fa-angle-down"
-        subMenu2.style.display = "block"
-        arrow2.className = "fa fa-angle-up"
-        subMenu3.style.display = "none"
-        arrow3.className = "fa fa-angle-down"
-    }
-}
-submenuarrow2.onclick = function(){
-    if (subMenu2.style.display == "block"){
-        subMenu2.style.display = "none"
-        arrow2.className = "fa fa-angle-down"
-    }
-}
+// //Função para abrir o SubMenu de Investimentos onClick
+// var subMenu2 = document.getElementById("sub-menu-2");
+// var icon2 = document.getElementById("icon-2")
+// var arrow2 = document.getElementById("investimentos-arrow")
+// var submenuarrow2 = document.getElementById("close-arrow2")
+// icon2.onclick = function(){
+//     if (subMenu2.style.display == "block"){
+//         subMenu2.style.display = "none"
+//         arrow2.className = "fa fa-angle-down"
+//     }
+//     else {
+//         subMenu1.style.display = "none"
+//         arrow1.className = "fa fa-angle-down"
+//         subMenu2.style.display = "block"
+//         arrow2.className = "fa fa-angle-up"
+//         subMenu3.style.display = "none"
+//         arrow3.className = "fa fa-angle-down"
+//     }
+// }
+// submenuarrow2.onclick = function(){
+//     if (subMenu2.style.display == "block"){
+//         subMenu2.style.display = "none"
+//         arrow2.className = "fa fa-angle-down"
+//     }
+// }
 
-//Função para abrir o SubMenu de Créditos onClick
-var subMenu3 = document.getElementById("sub-menu-3");
-var icon3 = document.getElementById("icon-3")
-var arrow3 = document.getElementById("creditos-arrow")
-var submenuarrow3 = document.getElementById("close-arrow3")
-icon3.onclick = function(){
-    if (subMenu3.style.display == "block"){
-        subMenu3.style.display = "none"
-        arrow3.className = "fa fa-angle-down"
-    }
-    else {
-        subMenu1.style.display = "none"
-        arrow1.className = "fa fa-angle-down"
-        subMenu2.style.display = "none"
-        arrow2.className = "fa fa-angle-down"
-        subMenu3.style.display = "block"
-        arrow3.className = "fa fa-angle-up"
-    }
-}
-submenuarrow3.onclick = function(){
-    if (subMenu3.style.display == "block"){
-        subMenu3.style.display = "none"
-        arrow3.className = "fa fa-angle-down"
-    }
-}
+// //Função para abrir o SubMenu de Créditos onClick
+// var subMenu3 = document.getElementById("sub-menu-3");
+// var icon3 = document.getElementById("icon-3")
+// var arrow3 = document.getElementById("creditos-arrow")
+// var submenuarrow3 = document.getElementById("close-arrow3")
+// icon3.onclick = function(){
+//     if (subMenu3.style.display == "block"){
+//         subMenu3.style.display = "none"
+//         arrow3.className = "fa fa-angle-down"
+//     }
+//     else {
+//         subMenu1.style.display = "none"
+//         arrow1.className = "fa fa-angle-down"
+//         subMenu2.style.display = "none"
+//         arrow2.className = "fa fa-angle-down"
+//         subMenu3.style.display = "block"
+//         arrow3.className = "fa fa-angle-up"
+//     }
+// }
+// submenuarrow3.onclick = function(){
+//     if (subMenu3.style.display == "block"){
+//         subMenu3.style.display = "none"
+//         arrow3.className = "fa fa-angle-down"
+//     }
+// }
+
+
+//Função para abrir e fechar os Sub-Menu adicionando e removendo a class "smenu-show",
+//com troca na aparecencia do menu selecionado através das classes "smenu-selected" e "fa-angle-up"
+
+//Sub-menu "Empréstimos"
+$('#icon-1').on('click', function(){
+    $('.sub-menu-1').toggleClass("smenu-show");
+    $('.sub-menu-2').removeClass("smenu-show");
+    $('.sub-menu-3').removeClass("smenu-show");
+    $('#emprestimos-arrow').toggleClass("fa-angle-up");
+    $(this).toggleClass("smenu-selected");
+    $('#icon-2').removeClass("smenu-selected");
+    $('#icon-3').removeClass("smenu-selected");
+})
+$('#close-arrow').on('click', function(){
+    $('.sub-menu-1').removeClass("smenu-show");
+    $('#emprestimos-arrow').toggleClass("fa-angle-up");
+    $('#icon-1').removeClass("smenu-selected");
+})
+
+//Sub-menu "investimentos"
+$('#icon-2').on('click', function(){
+    $('.sub-menu-1').removeClass("smenu-show");
+    $('.sub-menu-2').toggleClass("smenu-show");
+    $('.sub-menu-3').removeClass("smenu-show");
+    $('#investimentos-arrow').toggleClass("fa-angle-up");
+    $(this).toggleClass("smenu-selected");
+    $('#icon-1').removeClass("smenu-selected");
+    $('#icon-3').removeClass("smenu-selected");
+})
+$('#close-arrow-2').on('click', function(){
+    $('.sub-menu-2').removeClass("smenu-show");
+    $('#investimentos-arrow').toggleClass("fa-angle-up");
+    $('#icon-2').removeClass("smenu-selected");
+})
+
+//Sub-menu "Créditos"
+$('#icon-3').on('click', function(){
+    $('.sub-menu-1').removeClass("smenu-show");
+    $('.sub-menu-2').removeClass("smenu-show");
+    $('.sub-menu-3').toggleClass("smenu-show");
+    $('#creditos-arrow').toggleClass("fa-angle-up");
+    $(this).toggleClass("smenu-selected");
+    $('#icon-1').removeClass("smenu-selected");
+    $('#icon-2').removeClass("smenu-selected");
+})
+$('#close-arrow-3').on('click', function(){
+    $('.sub-menu-3').removeClass("smenu-show");
+    $('#creditos-arrow').toggleClass("fa-angle-up");
+    $('#icon-3').removeClass("smenu-selected");
+})
 
 
 
