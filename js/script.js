@@ -160,14 +160,17 @@ $(document).on('click', function (event) {
     if (!$(event.target).closest('#icon-1, #sub-menu-1').length) {
         $('.sub-menu-1').removeClass("smenu-show");
         $('#emprestimos-arrow').removeClass("fa-angle-up");
+        $('#icon-1').removeClass("smenu-selected");
     }
     if (!$(event.target).closest('#icon-2, #sub-menu-2').length) {
         $('.sub-menu-2').removeClass("smenu-show");
         $('#investimentos-arrow').removeClass("fa-angle-up");
+        $('#icon-2').removeClass("smenu-selected");
     }
     if (!$(event.target).closest('#icon-3, #sub-menu-3').length) {
         $('.sub-menu-3').removeClass("smenu-show");
         $('#creditos-arrow').removeClass("fa-angle-up");
+        $('#icon-3').removeClass("smenu-selected");
     }
 });
 
