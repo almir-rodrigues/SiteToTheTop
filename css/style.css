@@ -68,7 +68,7 @@ h6{
 }
 
 .nav a img{
-    width: 70px;
+    width: 55px;
 }
 .nav .navbar-toggle{
     display: none;
@@ -919,6 +919,73 @@ h6{
     filter: blur(0px);
     background: #fff;
 }
+
+/*==================== FAQ ======================*/
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.faq .faq-container{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.faq img{
+    display:flex;
+    width: 400px;
+    margin: 8rem 0;
+    top: 10%;
+    
+}
+
+
+.faq .faq-question{
+    width: 45%;
+    min-width: 200px;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 3rem;
+}
+
+.faq .faq-question .faq-wrapper{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0,0,50,0.2);
+}
+
+.faq .faq-wrapper .toggle{
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #134079;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.faq .faq-wrapper .faq-content{
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.7s;
+}
 /*==================== Footer ======================*/
 
 footer{
@@ -927,7 +994,7 @@ footer{
 }
 
 footer img{
-    width: 100px;
+    width: 80px;
 }
 footer .row-one{
     display: flex;
@@ -1036,7 +1103,9 @@ footer .second-row .text{
 .copyright p a{
     color: #c7ca21;
 }
-
+.recursos-copyright{
+    font-size: 12px;
+}
 @media (max-width: 1680px){
     
 /*========== Hero ==========*/
