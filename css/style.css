@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
 
 /* Definição de estilo global */
+html{
+    font-size: 62.5%;
+}
 *{
     margin: 0;
     padding: 0;
@@ -16,13 +19,13 @@ li{
     list-style: none;
 }
 h3{
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 55px;
     color: #121212;
     font-weight: 600;
 }
 h6{
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 32px;
     color: #6c6c6c;
     font-weight: normal;
@@ -36,7 +39,7 @@ h6{
     vertical-align: middle;
     border: 2px solid transparent;
     padding: 0 32px;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 48px;
     color: #0067f4;
     position: relative;
@@ -96,13 +99,13 @@ h6{
 }
 .nav .menu-bar .menu-items .nav-menu-option{
     color: #000;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
 .nav .menu-bar .menu-items li a{
     color: #000;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     cursor: pointer;    
 }
@@ -159,7 +162,7 @@ h6{
 }
 
 .sub-menu-1 .icon-seta i{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
     color: rgba(46, 46, 46, 0.3);
@@ -171,15 +174,15 @@ h6{
 }
 
 .sub-menu-1 ul li h4{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .sub-menu-1 ul li p{
-    font-size: 0.87rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 .sub-menu-1 ul li i{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #EABF4C;
 }
 
@@ -226,7 +229,7 @@ h6{
 }
 
 .sub-menu-2 .icon-seta2 i{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
     color: rgba(46, 46, 46, 0.3);
@@ -238,15 +241,15 @@ h6{
 }
 
 .sub-menu-2 ul li h4{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .sub-menu-2 ul li p{
-    font-size: 0.87rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 .sub-menu-2 ul li i{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #EABF4C;
 }
 
@@ -292,7 +295,7 @@ h6{
 }
 
 .sub-menu-3 .icon-seta3 i{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
     color: rgba(46, 46, 46, 0.3);
@@ -304,15 +307,15 @@ h6{
 }
 
 .sub-menu-3 ul li h4{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .sub-menu-3 ul li p{
-    font-size: 0.87rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 .sub-menu-3 ul li i{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #EABF4C;
 }
 
@@ -324,7 +327,7 @@ h6{
     align-items: center;
 }
 .nav .navbar-social span{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
     padding-right: 10px;
     color: #000;
@@ -340,7 +343,7 @@ h6{
 }
 .nav .navbar-social ul li a{
     color: #000;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 /* .login{
@@ -354,7 +357,7 @@ h6{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 3px;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 1.3rem;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -399,14 +402,14 @@ h6{
 
 .hero-text{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -155%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 .hero-text h3{
     color: #003d7c;
-    font-size: 44px;
+    font-size: 4.4rem;
     font-weight: 800;
 }
 .hero-text h6{
@@ -473,8 +476,8 @@ h6{
 }
 .card-info p{
     color: #777;
-    font-size: 14px;
-    font-weight: 22px;
+    font-size: 1.4rem;
+    font-weight: 400;
     line-height: 22px;
     padding: 10px;
 }
@@ -497,12 +500,12 @@ h6{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 .card-info-col i{
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin-bottom: 10px;
     color: #535cf1;
 }
 .card-info-col h3{
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     font-weight: 600;
     margin: 0;
@@ -554,7 +557,7 @@ h6{
     margin-bottom: 2rem;
 }
 .service .service-content .box .box-one .services i{
-    font-size: 3rem;
+    font-size: 4.5rem;
     margin-bottom: 10px;
     color: #535cf1;
 }
@@ -566,8 +569,15 @@ h6{
     text-align: justify;
 }
 
+.service .service-content .box .box-one .services .service-content .services-title{
+    font-size: 1.8rem;
+}
+
+.service .service-content .box .box-one .services .service-content .text{
+    font-size: 1.4rem;
+}
 .service .service-content .service-img{
-    width: 40%;
+    width: 50%;
 }
 .service .service-content .service-img img{
     border-radius: 10px;
@@ -590,7 +600,7 @@ h6{
 .pricing .table{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -600,6 +610,7 @@ h6{
     border: 1px solid #535cf1;
     border-radius: 20px;
     transition: all 0.5s ease;
+    margin: 0 1rem;
 }
 .pricing .table .basic:hover{
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.7);
@@ -671,6 +682,7 @@ h6{
     padding: 18px 0;
     border-bottom: 1px solid #ccc;
     color: #7f8c8d;
+    font-size: 1.4rem;
 }
 
 .pricing .header-btn{
@@ -700,10 +712,11 @@ h6{
     border: 1px solid #2e53cc;
 }
 
+
 /*================= Newsletter ====================*/
 
 .callToAct{
-    background-image: linear-gradient(to right, rgba(255, 0, 0,0), #6369e7), url(/SiteToTheTop/assets/images/2.jpg);
+    background-image: linear-gradient(to top, rgba(255, 0, 0,0), #6369e7), url(/SiteToTheTop/assets/images/2.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -727,7 +740,7 @@ h6{
 }
 
 .callToAct .parallax p{
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 20px 0;
 }
 
@@ -743,13 +756,13 @@ h6{
 .callToAct .parallax .call-news i{
     color: #535cf1;
     padding-right: 10px;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .callToAct .parallax .call-news input{
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .callToAct .parallax .call-news button{
@@ -758,7 +771,7 @@ h6{
     border: none;
     outline: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     padding: 15px 20px;
     cursor: pointer;
     margin-left: 20px;
@@ -799,7 +812,7 @@ h6{
     border: 1px solid #cbced1;
     border-radius: 5px;
     padding: 0 25px;
-    font-size: 16px;
+    font-size: 1.6rem;
     outline: none;
 }
 
@@ -809,7 +822,7 @@ h6{
     border: 1px solid #cbced1;
     border-radius: 5px;
     padding: 0 25px;
-    font-size: 16px;
+    font-size: 1.6rem;
     outline: none;
     font-family: "Poppings", sans-serif;
     padding-top: 15px;
@@ -826,7 +839,7 @@ h6{
     color: #fff;
     border-radius: 5px;
     border: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: normal;
     outline: none;
 }
@@ -863,18 +876,21 @@ h6{
     padding-top: 90px;
     color: #999;
 }
-.testimonials-box .quote{
+.testimonials .testimonials-box .content p{
+    font-size: 1.6rem;
+}
+.testimonials .testimonials-box .quote{
     position: absolute;
     top: 20px;
     right: 30px;
     opacity: 0.2;
 }
-.testimonials-box .details{
+.testimonials .testimonials-box .details{
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.testimonials-box .details .imgbox{
+.testimonials .testimonials-box .details .imgbox{
     position: relative;
     width: 60px;
     height: 60px;
@@ -882,7 +898,7 @@ h6{
     overflow: hidden;
     margin-right: 10px;
 }
-.testimonials-box .details .imgbox img{
+.testimonials .testimonials-box .details .imgbox img{
     position: absolute;
     top: 0;
     left: 0;
@@ -890,22 +906,22 @@ h6{
     height: 100%;
     object-fit: cover;
 }
-.testimonials-box .details h4{
-    font-size: 16px;
+.testimonials .testimonials-box .details h4{
+    font-size: 1.45rem;
     font-weight: 400;
     color:#2196f3 ;
     line-height: 1.1rem;
 }
-.testimonials-box .details h4 span{
-    font-size: 12px;
+.testimonials .testimonials-box .details h4 span{
+    font-size: 1.2rem;
     color: #666;
 }
-.swiper-container {
+.testimonials .swiper-container {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.swiper-slide {
+.testimonials .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 320px;
@@ -915,7 +931,7 @@ h6{
     background: #d1ebff;
     border-radius: 10px;
 }
-.swiper-slide-active{
+.testimonials .swiper-slide-active{
     filter: blur(0px);
     background: #fff;
 }
@@ -947,12 +963,13 @@ h6{
 
 
 .faq .faq-question{
-    width: 45%;
+    width: 60%;
     min-width: 200px;
     position: relative;
     top: 0;
     right: 0;
     padding: 3rem;
+    margin: 4rem 0;
 }
 
 .faq .faq-question .faq-wrapper{
@@ -970,7 +987,7 @@ h6{
     background-color: transparent;
     align-items: center;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #134079;
     font-weight: 600;
     border: none;
@@ -979,7 +996,9 @@ h6{
 }
 .faq .faq-wrapper .faq-content{
     position: relative;
-    font-size: 14px;
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: 400;
     text-align: justify;
     line-height: 30px;
     height: 0;
@@ -1011,7 +1030,7 @@ footer .row-one ul{
 }
 footer .row-one a{
     padding-right: 20px;
-    font-size: 26px;
+    font-size: 2.6rem;
     color: #6c6c6c;
 }
 
@@ -1022,7 +1041,7 @@ footer .second-row{
 }
 
 footer .second-row h6{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 700;
     line-height: 18px;
     color: #6c6c6c;
@@ -1033,7 +1052,7 @@ footer .second-row li{
     padding-bottom: 12px;
 }
 footer .second-row li a{
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 24px;
     font-weight: 500;
     color: #121212;
@@ -1041,6 +1060,7 @@ footer .second-row li a{
 
 footer .second-row .first-row:nth-child(4){
     max-width: 300px;
+    font-size: 1.5rem;
 }
 
 footer .second-row .newsletter{
@@ -1077,7 +1097,7 @@ footer .second-row .newsletter button{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border: 0;
-    font-size: 20px;
+    font-size: 2rem;
     color: #121212;
     background-color: none;
     cursor: pointer;
@@ -1104,324 +1124,54 @@ footer .second-row .text{
     color: #c7ca21;
 }
 .recursos-copyright{
-    font-size: 12px;
+    font-size: 1.2rem;
 }
-@media (max-width: 1680px){
-    
-/*========== Hero ==========*/
+
+
+@media (max-width: 1440px){
     .back{
         background-position: center;
     }
-    
-    .hero-text{
-        transform: translate(-50%, -100%);
-        text-align: center;
-    }
-/*========== Newsletter ==========*/
 
-    .callToAct{
-        margin-bottom: 5rem;
-    }
-
-    .callToAct .parallax{
-        width: 80%;
-    }
-/*========== Contato ==========*/
-
-    .contact .form{
-        width: 90%;
+    .faq .faq-question{
+        width: 80%;       
     }
 
 }
 
-@media (max-width: 1200px){
-    .nav{
-        padding: 1rem 3rem;
-    }
-
+@media (max-width: 1174px){
     .nav .navbar-social{
         display: none;
     }
 
-    .sub-menu-1 ul{
-        margin: 2rem;
+    .service .service-content .box .box-one .services .service-content .text{
+        font-size: 1.18rem;
     }
-    .sub-menu-1 ul li{
-        border: 2px solid transparent;
-        padding: 2rem 0.23rem;
-        width: 270px;
-        height: 240px;
-    }
-    .sub-menu-1 ul li:hover{
-        border: 2px solid #3b76bb;
-    }
-    .sub-menu-1 ul li h4{
-        font-size: 14px;
-    }
-    .sub-menu-1 ul li p{
-        font-size: 12px;   
-    }
-    .sub-menu-1 .icon-seta i{
-        font-size: 25px;
-        font-weight: 800;        
-    }    
-    .sub-menu-1 ul li i{
-        font-size: 35px;
-    }
-
-    .sub-menu-2 ul{
-        margin: 2rem;
-    }
-    .sub-menu-2 ul li{
-        border: 2px solid transparent;
-        padding: 2rem 0.23rem;
-        width: 270px;
-        height: 240px;
-    }
-    .sub-menu-2 ul li:hover{
-        border: 2px solid #3b76bb;
-    }
-    .sub-menu-2 ul li h4{
-        font-size: 14px;
-    }
-    .sub-menu-2 ul li p{
-        font-size: 12px;   
-    }
-    .sub-menu-2 .icon-seta i{
-        font-size: 25px;
-        font-weight: 800;        
-    }
-    .sub-menu-2 ul li i{
-        font-size: 35px;
-    }
-
-    .sub-menu-3 ul{
-        justify-content:space-evenly;
-        margin: 2.3rem;
     
-    }
-    .sub-menu-3 ul li{
-        border: 2px solid transparent;
-        padding: 2rem 0.23rem;
-        width: 190px;
-        height: 230px;
-    }
-    .sub-menu-3 ul li:hover{
-        border: 2px solid #3b76bb;
-    }
-    .sub-menu-3 ul li h4{
-        font-size: 14px;
-    }
-    .sub-menu-3 ul li p{
-        font-size: 12px;   
-    }
-    .sub-menu-3 .icon-seta i{
-        font-size: 25px;
-        font-weight: 800;        
-    }
-    .sub-menu-3 ul li i{
-        font-size: 35px;
-    }
-/*========== Hero ==========*/
-    .back{
-        background-position: center;
-    }
-
-    .hero-text{
-        transform: translate(-50%, -110%);
-        text-align: center;
-    }
-    .hero-text h3{
-        font-size: 30px;
-    }
-    .hero-text h6{
-        font-size: 18px;
-    }
-/*========== Serviços ==========*/
-    #wrapper{
-        margin: 3rem 3rem 10rem 3rem;
-    }
-    .service{
-        margin-bottom: 3rem;
-    }
-
-    .service h6{
-        margin-bottom: 3rem;
-    }
-
-    .service .service-content{
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-
-    .service .service-content .box{
-        width: 100%;
-    }
-
-    .service .service-content .box .box-one{
-        justify-content: center;
-        align-items: center;
-        text-align: center
-    }
-
-    .service .service-content .service-img{
-        width: 90%;
-        margin-bottom: 5rem;
-    }
-
-/*========== Newsletter ==========*/
-
-    .callToAct{
-        margin-bottom: 5rem;
-    }
-
-    .callToAct .parallax{
-        width: 80%;
-    }
-/*========== Contato ==========*/
-
-    .contact .form{
-        width: 90%;
-    }
-
 }
-
 
 @media (max-width: 1024px){
-    .back .hero-shape{
-        transform: translateY(1px);
+    html{
+        font-size: 55%;
     }
+}
 
-    .hero-text{
-        transform: translate(-50%, -110%);
-        text-align: center;
-    }
-    .hero-text h3{
-        font-size: 30px;
-    }
-    .hero-text h6{
-        font-size: 18px;
-    }
-/*========== Serviços ==========*/
-    #wrapper{
-        margin: 3rem 3rem 10rem 3rem;
-    }
-    .service{
-        margin-bottom: 3rem;
-    }
-
-    .service h6{
-        margin-bottom: 3rem;
-    }
-
+@media (max-width: 768px){
     .service .service-content{
-        flex-direction: column-reverse;
+        flex-direction:column-reverse;
         justify-content: center;
-        width: 80%;
     }
 
     .service .service-content .box{
-        width: 100%;
-    }
-
-    .service .service-content .box .box-one{
-        justify-content: center;
-        align-items: center;
-        text-align: center
-    }
-
-    .service .service-content .service-img{
-        width: 90%;
-        margin-bottom: 5rem;
-    }
-    
-/*========== Newsletter ==========*/
-
-    .callToAct{
-        margin-bottom: 5rem;
-    }
-
-    .callToAct .parallax{
         width: 80%;
-    }
-/*========== Contato ==========*/
-
-    .contact .form{
-        width: 90%;
-    }
-}
-@media (max-width: 768px){
-    .nav{
-        padding: 0.7rem 1rem;
-    }
-
-    .nav .navbar-toggle{
-        display: block;
-        position: absolute;
-        top: 26px;
-        right: 16px;
-        z-index: 1000000;
-    }
-
-    .nav .menu-bar{
-        position: fixed;
-        top: 55px;
-        right: -360px;
-        width: 300px;
-        height: 100vh;
-        background-color: rgba(256, 256, 256, 0.9);
-        transition: all 0.6s ease;
-    }
-
-    .nav .menu-bar .menu-items{
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: justify;
-        padding: 40px 0;
-    }
-
-    .nav .menu-bar .menu-items li{
-        margin: 2rem 30px;
-    }
-
-    .login .login-bnt {
-        display: none;
-    }
-
-
-
-
-    .hero-text{
-        width: 80%;
-    }
-
-    .hero-text h6{
-        font-size: 16px;
-    }
-
-
-
-
-    #wrapper{
-        margin: 3rem 1rem 10rem 1rem;
-    }
-
-    .service h3{
-        font-size: 33px;
-    }
-
-    .service h6{
-        font-size: 16px;
-    }
-
-    .service .service-content .service-img{
-        width: 80%;
-        margin-bottom: 5rem ;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;
     }
 }
 
-@media only screen and(max-width: 480px){
+@media (max-width: 425px){
     
 }
