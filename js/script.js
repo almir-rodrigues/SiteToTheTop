@@ -68,12 +68,12 @@ $('#icon-3').on('click', function () {
     $(this).toggleClass("smenu-selected");
     $('#icon-1').removeClass("smenu-selected");
     $('#icon-2').removeClass("smenu-selected");
-})
+});
 $('#close-arrow-3').on('click', function () {
     $('.sub-menu-3').removeClass("smenu-show");
     $('#creditos-arrow').toggleClass("fa-angle-up");
     $('#icon-3').removeClass("smenu-selected");
-})
+});
 
 //Função para fechar o sub-menu clicando fora do elemento aberto
 $(document).on('click', function (event) {
@@ -96,21 +96,22 @@ $(document).on('click', function (event) {
 
 
 
+$('#bar').on('click', function(){
+    $('#small-menu').toggleClass("small-menu-hide");
+});
 
-var sideMenu = document.getElementById("bar");
-var sideItems = document.getElementById("navbar");
+$('#ssub-1').on('click', function(){
+    $('.ss-menu-1').toggle();
+    $('#ssub-arrow-1').toggleClass("fa-angle-up");
+});
 
-sideItems.style.right = "-360px";
+$('#ssub-2').on('click', function(){
+    $('.ss-menu-2').toggle();
+});
 
-sideMenu.onclick = function () {
-    if (sideItems.style.right == "-360px") {
-        sideItems.style.right = "0"
-    }
-    else {
-        sideItems.style.right = "-360px"
-    }
-}
-
+$('#ssub-3').on('click', function(){
+    $('.ss-menu-3').toggle();
+});
 
 
 
